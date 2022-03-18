@@ -10,4 +10,4 @@ REDIS: StrictRedis = StrictRedis(
 
 
 def init_cache():
-    REDIS.set("apple", f"{1}")
+    REDIS.set("apple", f"{1}", ex=Config.REDIS_EXPIRE)

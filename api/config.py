@@ -14,3 +14,4 @@ class Config:
     REDIS_PORT = int(os.environ.get("REDIS_PORT", "6379"))
     REDIS_DB_IDX = int(os.environ.get("REDIS_DB_IDX", "0"))
     REDIS_PASSWORD = os.environ.get("REDIS_PASSWORD", "password")
+    REDIS_EXPIRE = int(os.environ.get("REDIS_EXPIRE", "72000"))
