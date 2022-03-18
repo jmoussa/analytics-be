@@ -1,4 +1,12 @@
-# FastAPI-redis
+# Analytics Backend Server
+
+A quick backend for a basic analytics work.
+This will serve as a catch-all for various data lookups and the main interface to display the [visualization platform](https://github.com/jmoussa/analytics-fe)
+
+# This project was made using FastAPI-redis template
+
+# User Guide
+
 Fastapi framework template, with basic redis operations.
 
 ![Integration](https://github.com/DarkbordermanTemplate/fastapi-redis/workflows/Integration/badge.svg)
@@ -9,9 +17,9 @@ Fastapi framework template, with basic redis operations.
 
 ### Prerequisitive
 
-| Name | Version |
-| --- | --- |
-| Python | 3.8 |
+| Name                  | Version          |
+| --------------------- | ---------------- |
+| Python                | 3.8              |
 | pipenv(Python module) | 2018.11.26 or up |
 
 ### Environment setup
@@ -40,8 +48,8 @@ pipenv shell
 cd api/
 uvicorn app:APP
 ```
-The server will run at http://127.0.0.1:8000
 
+The server will run at http://127.0.0.1:8000
 
 ### Formatting
 
@@ -67,16 +75,17 @@ This project uses `pytest` and its extension(`pytest-cov`) for testing
 
 ### Prerequisitive
 
-| Name | Version |
-| --- | --- |
-| Docker | 19.03.6 |
-| docker-compose | 1.17.1 |
+| Name           | Version |
+| -------------- | ------- |
+| Docker         | 19.03.6 |
+| docker-compose | 1.17.1  |
 
 ### Building image
 
 ```
 docker-compose build
 ```
+
 This will build the image with tag `fastapi-template:latest`
 
 ### Deployment step
@@ -84,10 +93,11 @@ This will build the image with tag `fastapi-template:latest`
 The service is deployed with `docker-compose`.
 
 0. Start containers
+
 ```
 docker-compose up
 ```
 
 ## Contribution
 
-* Darkborderman/Divik(reastw1234@gmail.com)
+- Darkborderman/Divik(reastw1234@gmail.com)

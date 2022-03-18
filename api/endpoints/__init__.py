@@ -3,7 +3,6 @@ from typing import List
 
 from endpoints.classes import Resource
 
-from .fruit import FRUIT
 from .health import HEALTH
 
-RESOURCES: List[Resource] = HEALTH + FRUIT
+RESOURCES: List[Resource] = HEALTH
